@@ -1,9 +1,119 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300&display=swap');
 
+  body {
+    background-color:#eeeeee;
+    color: #333333;
+    font-family: 'Ubuntu';
+    font-size: 12px;
+    }
 
-        body {
-            background-color:#eeeeee;
-            color: #333333;
-            font-family: 'Ubuntu';
-            font-size: 12px;
-             }
+/* Top navigation bar */
+.navBar {
+  overflow: hidden;
+  }
+
+/* Navbar styling */
+.navBar a {
+    display: block;
+    padding: 12px 24px 12px 12px;
+    text-decoration: none;
+    color: #757371; 
+    font-size: 20px;
+    float: left;
+    text-transform: uppercase;
+    }
+
+/* Hovering over navbar item */
+.navBar a:hover {
+    color: #7ac3a8;
+
+}
+
+/* Current link on navbar */
+.navBar a.active {
+    color: #7ac3a8;
+}
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  width: 1500px;
+  height: 670px;
+  margin-top: 10px;
+  grid-template-columns: 30% 25% 46.5%;
+  grid-template-areas:
+  "left middle right"
+} 
+
+/* Left column styling */
+.left {
+  grid-area: left;
+  position: relative;
+ background-color: rgba(122, 195, 168, 0.4);  
+}
+
+/* Right column styling */
+.right {
+  grid-area: right;
+  position: relative;
+  background-color: rgba(122, 195, 168, 0.4);
+
+}
+
+/* Middle column styling */
+.middle {
+  grid-area: middle;
+  position: relative;
+  background-color: rgba(122, 195, 168, 0.4);
+
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.profilePic {
+  width: 250px;
+  margin: 100px;
+  border-radius: 10px;
+}
+
+.nameTitle {
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 12px;
+  font-size: 50px;
+  text-align: center;  
+  font-weight: bold;
+  margin-top: 100px;
+
+}
+
+hr {
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  width: 300px;
+  margin-left: 35px;
+  margin-top: -30px;
+}
+
+hr:after {
+  background: #fff;
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
+h2 {
+  text-align: center;
+
+}
+
+.content {
+  margin-top: 100px;
+  text-align: center;
+}
