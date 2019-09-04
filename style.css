@@ -2,7 +2,7 @@
 
   body {
     background-color:#eeeeee;
-    color: #333333;
+    color: #141414;
     font-family: 'Ubuntu';
     font-size: 12px;
     }
@@ -40,7 +40,7 @@
   width: 1500px;
   height: 670px;
   margin-top: 10px;
-  grid-template-columns: 30% 25% 46.5%;
+  grid-template-columns: 30% 35% 35%;
   grid-template-areas:
   "left middle right"
 } 
@@ -97,7 +97,7 @@ hr {
   text-align: center;
   height: 5px;
   width: 300px;
-  margin-left: 35px;
+  margin-left: 105px;
   margin-top: -30px;
 }
 
@@ -108,12 +108,23 @@ hr:after {
   top: -13px;
 }
 
-h2 {
+.content {
   text-align: center;
-
+  font-size: 1.25em;
 }
 
-.content {
+.academicTitle {
+  text-align: center;
+  color: #4b806c;
+}
+
+.question {
   margin-top: 100px;
   text-align: center;
+}
+
+.linkedIn {
+  margin-top: 100px;
+  margin-left: 210px;
+
 }
