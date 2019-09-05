@@ -4,122 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Angie's portfolio - Profile</title>
-
+    <title>Angie's Portfolio - Profile</title>
     <link rel="stylesheet" href="style.css">
-
-    
-    <style>
-
-        ul { 
-            list-style-type: none;
-            margin: 0;
-            padding: 10px; 
-        }
-
-            li {
-                float: left;
-                font-size: 20px;
-                
-            }
-        
-            a {
-                display: block;
-                padding: 12px;
-                text-decoration: none;
-                color: #757371; 
-            
-            }
-
-            a:hover{
-                color: #7ac3a8;
-        
-            }
-            
-            .currentLink {
-                color: #7ac3a8;
-            }
-           
-            img {
-                border-radius: 5%;
-            }
-
-            .introduction {
-
-                margin-top:50px;
-
-            }
-        
-
-        
-        </style>
 </head>
-    <body>
 
-            <ul>
-                    <li><a href="/index.html">HOME</a></li>
-                    <li><a class="currentLink"href="/profile.html">PROFILE</a></li>
-                    <li><a href="/dashboard.html">DASHBOARD</a></li>
-                    <li><a href="/resume.html">RESUME</a></li>
-                    <li><a href="/photography.html">PHOTOGRAPHY</a></li>
+<body>
+ 
+<header>
+
+    <div class="navBar">
+        <a href="/index.html">home</a>
+        <a class="active" href="/profile.html">profile</a>
+        <a href="/dashboard.html">dashboard</a>
+        <a href="/resume.html">resume</a>
+        <a href="/photography.html">photography</a>
+    </div>
+
+</header>
+
+<div class="grid-container">
     
+    <div class="left">
+        <div class="content">
+        <br><br><br><br><br><br>
+        <h2>The Good</h2>
+        <ul class="listPosition">
+            <li>Animal lover</li>
+            <li>Abudance of motivation</li>
+            <li>Always down to learn new things</li>
+            <li>Make the best pancakes, pad thai and tomato sauce in town</li>
+            <li>Won The Netherlands BTEC Best Student of the Year (2018) </li>
+            <li>Academics:</li>
+                <ul>
+                    <li>MBO 4: International Business Studies</li>
+                    <li>BTEC Level 3 Extended: Business</li>
+                    <li>BA: English Language & Literature (30 EC)</li>
                 </ul>
+        </ul>
+        <h2 style="margin-top: 75px;">The Bad and the Ugly</h2>
+        <ul class="listPosition">
+            <li>Know-it-all</li>
+            <li>Never had a swear jar</li>
+            <li>Love making impulsive decisions</li>
+            <li>Sometimes too honest (don't take it personal)</li>
+            <li>Easily distrac- oh hey look a cute hedgehog!</li>
+        </ul>
+        </div>
+    </div>
 
-        <h1>About me</h1>
-        <img src="angie.jpg" style="width:150px">
-
-        <h3>The basics</h3>
-        <ul>
-            <li>Angelique//Vanilla</li>
-            <li>20 </li>
-            <li>Just moved to campus in Middelburg</li>
-            <li>Part Dutch, part French</li>
-            <li>Business Manager @ AxCrypt</li>
-            <li>Hobbies</li>
-            <ul>
-                <li>Anything involving friends</li>
-                <li>Disturbing my neighbours by playing the bass guitar</li>
+    <div class="middle">
+            <h1>Profile</h1>
+            <div class="content">
+            <h2 style="margin-top: 55px;">Hobbies</h2>
+            <ul class="listPosition">
                 <li>Literature</li>
                 <li>Cooking/Baking</li>
+                <li>Anything involving friends</li>
                 <li>Shooting analog with my yashica 230 af</li>
+                <li>Disturbing my neighbours by playing the bass guitar</li>
             </ul>
-        </ul>
-        <img src="roebie.jpg" style="width:500px">
+            <img class="hedgehog" src="/img/hedgehog.png">
 
-        <h3>Academics</h3>
-        <ul>
-            <li>VMBO-TL: Economics</li>
-            <li>MBO 4: International Business Studies</li>
-            <li>BTEC 3 extended: Business</li>
-            <li>Bachelor (just a semester): English Language and Literature</li>
-            <li>....Bachelor in progress: HBO-ICT</li>
+            </div>
+        
+    </div>
 
-        </ul>
-    
+    <div class="right">
+        <div class="content">
+        <img class="albumCover" src="img/angie.jpg">
 
+        </div>
+    </div>
 
-
-        </ul>
-
-        <h3>The good</h3> 
-            <ul>
-                <li>Abudance of motivation</li>
-                <li>Always down to learn new things</li>
-                <li>Animal lover</li>
-                <li>Make the best pancakes, pad thai and tomato sauce in town</li>
-                <li>Won The Netherlands BTEC Best Student of the Year (2018) </li>
-            </ul>
-        <h3>The bad and the ugly</h3>
-            <ul>
-                <li>Know-it-all</li>
-                <li>Never had a swear jar</li>
-                <li>Love making impulsive decisions</li>
-                <li>Sometimes too honest (don't take it personal)</li>
-                <li>Easily distrac- oh hey look a cute hedgehog!</li>
-            </ul>
-        <img src="hedgehog.png" style="width:500px">
-    </body>
+</div>
+</body>
 </html>
-
-<!--Introductie van presentatie, afbeelding, gecategoriseerde lijst met kenmerken van jezelf
-met behulp van geneste lijsen of lijsten in lijst ul en/of ol-->
