@@ -173,3 +173,39 @@ margin-right: auto;
 
 }
 
+progress {
+  -webkit-appearance: none;
+  width: 70%;
+}
+progress::-webkit-progress-value {
+ -webkit-appearance: none;
+ background-color: #4b806c;
+}
+
+progress::-webkit-progress-bar {
+  -webkit-appearance: none;
+  background-color: #eeeeee;
+ }
+
+#studiemonitor {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#studiemonitor td, #studiemonitor th {
+  border: 1px solid #4b806c;
+  padding: 8px;
+}
+
+#studiemonitor tr:nth-child(even){background-color: #f2f2f2;}
+#studiemonitor tr:nth-child(odd){background-color: #dbdbdb;}
+#studiemonitor tr:hover {background-color: #ddd;}
+
+#studiemonitor th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4b806c;
+  color: white;
+}
+
