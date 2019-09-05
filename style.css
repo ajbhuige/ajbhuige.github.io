@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300&display=swap');
-
-  body {
+/* Body styling */
+body {
     background-color:#eeeeee;
     color: #141414;
     font-family: 'Ubuntu';
@@ -26,7 +26,6 @@
 /* Hovering over navbar item */
 .navBar a:hover {
     color: #7ac3a8;
-
 }
 
 /* Current link on navbar */
@@ -40,7 +39,7 @@
   width: 100%;
   height: 100%;
   margin-top: 10px;
-  grid-template-columns: 30% 35% 35%;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
   "left middle right"
 } 
@@ -49,7 +48,7 @@
 .left {
   grid-area: left;
   position: relative;
- background-color: rgba(122, 195, 168, 0.4);  
+  background-color: rgba(122, 195, 168, 0.4);  
 }
 
 /* Right column styling */
@@ -57,7 +56,6 @@
   grid-area: right;
   position: relative;
   background-color: rgba(122, 195, 168, 0.4);
-
 }
 
 /* Middle column styling */
@@ -65,19 +63,16 @@
   grid-area: middle;
   position: relative;
   background-color: rgba(122, 195, 168, 0.4);
-
 }
 
-.footer {
-  grid-area: footer;
-}
-
+/* Picture on index page */
 .profilePic {
   width: 250px;
   margin: 100px;
   border-radius: 10px;
 }
 
+/* Name as title on index page*/
 .nameTitle {
   text-transform: uppercase;
   color: black;
@@ -86,9 +81,9 @@
   text-align: center;  
   font-weight: bold;
   margin-top: 100px;
-
 }
 
+/* Horizontal line styling */
 hr {
   border: none;
   border-top: 3px double #333;
@@ -100,7 +95,6 @@ hr {
   margin-left: 105px;
   margin-top: -30px;
 }
-
 hr:after {
   background: #fff;
   padding: 0 4px;
@@ -108,27 +102,31 @@ hr:after {
   top: -13px;
 }
 
+/* Overall content styling */
 .content {
   text-align: center;
   font-size: 1.25em;
 }
 
+/* Study title on index page */
 .academicTitle {
   text-align: center;
   color: #4b806c;
 }
 
+/* Questions on index page*/
 .question {
   margin-top: 100px;
   text-align: center;
 }
 
+/* LinkedIn logo link */
 .linkedIn {
   margin-top: 80px;
   margin-left: 215px;
-
 }
 
+/* Header styling */
 h1 {
   font-size: 40px;
   color: black;
@@ -136,17 +134,15 @@ h1 {
   font-weight: lighter;
   text-align: center;
   margin-top: 100px;
-
 }
-
 h2 {
   font-size: 20px;
   text-align: center;
   margin-top: 100px;
   margin-left: 25px;
-
 }
 
+/* Picture of album cover on profile page */
 .albumCover {
   width: 300px;
   border: 7px solid white;
@@ -155,57 +151,87 @@ h2 {
   margin-right: auto;
   margin-top: 200px;
   margin-bottom: 165px;
-
 }
 
+/* Unordered lists on profile page */
 .listPosition {
   list-style-position: inside;
   text-align: center;
   list-style-type: none;
-
 }
 
+/* Hedgehog picture*/
 .hedgehog {
-width: 300px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* Progress bar */
 progress {
   -webkit-appearance: none;
   width: 70%;
 }
+
+/* Progress bar value */
 progress::-webkit-progress-value {
  -webkit-appearance: none;
  background-color: #4b806c;
 }
 
+/* Progress bar itself */
 progress::-webkit-progress-bar {
   -webkit-appearance: none;
   background-color: #eeeeee;
- }
-
-#studiemonitor {
-  border-collapse: collapse;
-  width: 100%;
 }
 
+/* Table on dashboard */
+#studiemonitor {
+  margin-top: 55px;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 50px;
+}
 #studiemonitor td, #studiemonitor th {
   border: 1px solid #4b806c;
   padding: 8px;
 }
-
 #studiemonitor tr:nth-child(even){background-color: #f2f2f2;}
 #studiemonitor tr:nth-child(odd){background-color: #dbdbdb;}
-#studiemonitor tr:hover {background-color: #ddd;}
-
 #studiemonitor th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
   background-color: #4b806c;
   color: white;
+}
+a {
+  text-decoration: none;
+}
+
+/* Buttons on dashboard*/
+.btn-container {
+	margin-top: 200px;
+}
+a.btn {
+	color: #4b806c;
+	background-color: #eee;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 5px;
+	border: 1px solid #4b806c;
+  border-bottom-width: 3px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  margin-bottom: 5px;
+}
+a.btn:hover {
+  background-color: #dbdbdb;
+  border-color: rgba(0,0,0,0.5);
 }
 
