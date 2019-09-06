@@ -92,7 +92,7 @@ hr {
   text-align: center;
   height: 5px;
   width: 300px;
-  margin-left: 105px;
+  margin-left: 95px;
   margin-top: -30px;
 }
 hr:after {
@@ -112,6 +112,8 @@ hr:after {
 .academicTitle {
   text-align: center;
   color: #4b806c;
+  margin-right: 50px;
+  margin-top: 30px;
 }
 
 /* Questions on index page*/
@@ -123,7 +125,7 @@ hr:after {
 /* LinkedIn logo link */
 .linkedIn {
   margin-top: 80px;
-  margin-left: 215px;
+  margin-left: 190px;
 }
 
 /* Header styling */
@@ -162,10 +164,11 @@ h2 {
 
 /* Hedgehog picture*/
 .hedgehog {
-  width: 300px;
+  width: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 130px;
 }
 
 /* Progress bar */
