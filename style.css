@@ -217,7 +217,7 @@ a {
 .btn-container {
 	margin-top: 200px;
 }
-a.btn {
+a.btn, .diamondBtn {
 	color: #4b806c;
 	background-color: #eee;
 	text-transform: uppercase;
@@ -237,4 +237,12 @@ a.btn:hover {
   background-color: #dbdbdb;
   border-color: rgba(0,0,0,0.5);
 }
+
+/* Diamond button extra styling */
+.diamondBtn {
+  width: 150px;
+  margin-top: 330px;
+  margin-left: 0;
+}
+
 

@@ -4,15 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Angie's Portfolio - Diamond</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header>
+        <div class="navBar">
+                <a href="/index.html">home</a>
+                <a href="/profile.html">profile</a>
+                <a href="/dashboard.html">dashboard</a>
+                <a href="/cv.html">cv</a>
+                <a href="/fotografie.html">fotografie</a>
+                <a class="active" href="/diamond.html">diamond</a>
+        </div> 
+</header>
 
-    <canvas id="diamond" width="800" height="800">
+<div class="grid-container">
 
-    </canvas>
+        <div class="left">
+        </div>
+
+        <div class="middle">
+            <canvas id="diamond" width="800" height="800"></canvas>
+        </div>
+
+        <div class="right">
+            <button class="diamondBtn" onclick="drawDiamond()">Diamond!</button>
+
+        </div>
+
+</div>
 
 
+<script src="canvas.js"></script>
     
 </body>
 </html>
