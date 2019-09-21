@@ -251,9 +251,9 @@ a.btn:hover {
   width: 100%;
   height: 100%;
   margin-top: 10px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-areas:
-  "left right"
+  "middle"
 } 
 
 /*Content styling for motivation page*/
@@ -261,12 +261,13 @@ a.btn:hover {
     text-align: left;
     font-size: 1.20em;
     margin-left: 50px;
+    margin-right: 600px;
     line-height: 1.6;
 }
 
 .motivationSubTitles {
   font-size: 20px;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 50px;
   text-align: left;
 }
