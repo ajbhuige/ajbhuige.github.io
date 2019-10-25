@@ -261,7 +261,7 @@ a.btn:hover {
     text-align: left;
     font-size: 1.20em;
     margin-left: 50px;
-    margin-right: 600px;
+    margin-right: 50px;
     line-height: 1.6;
 }
 
@@ -273,3 +273,26 @@ a.btn:hover {
 }
 
 
+/* Image styling for beroepsbeeld page*/
+.workPicOdd {
+  width: 400px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.workPicEven {
+  width: 400px;
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: 130px;
+}
+
+.workContainer {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  grid-template-columns: 1.25fr 0.5fr 1.25fr;
+  grid-template-areas:
+  "left middle right"
+} 
