@@ -296,3 +296,12 @@ a.btn:hover {
   grid-template-areas:
   "left middle right"
 } 
+
+/*Styling for dashboard grades*/
+.unsufficientGrade {
+  color: red;
+}
+
+.sufficientGrade {
+  color: green;
+}
